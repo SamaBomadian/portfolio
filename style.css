@@ -1,0 +1,231 @@
+body {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #21252A;
+
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.logo i {
+    font-size: 20px;
+    display: inline-flex;
+      color: white;
+}
+.logo {
+
+    color: white;
+    padding: 10px 230px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #21252A;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+ul li a {
+     display: block;
+    padding: 24px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+     transition: 0.3s;
+
+}
+span , .home , .me{
+
+     color: #FF0152;
+}
+ 
+ul li a:hover {
+     color: #FF0152;
+     background-color: #111111;
+}
+
+#home ,#About , #skills {
+    height: 100vh;
+    margin-left: 180px;
+    margin-top: -50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+     
+}
+
+.btn  , .button{
+margin-top: 15px;
+width: 35%;
+height: 50px;
+border-radius: 20px;
+color: white;
+background-color: #FF0152;
+font-size: 15px;
+ box-shadow: 0em 0 0.6em rgb(231, 231, 220);
+ cursor: pointer;
+
+}
+.btn:hover,.button:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+ div a i {
+
+margin-top:21px;
+margin-left: 20px;
+font-size: 20px;
+color: #CFC2AC;
+cursor: pointer;
+
+}
+i:hover {
+     box-shadow: 0em 0 0.6em rgb(231, 231, 220);
+}
+
+p {
+      font-size: 12px;
+}
+img {
+     position: sticky;
+    margin-right: 300px;
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0em 0 0.6em rgb(231, 231, 220);
+    transition: 0.3s;
+   
+
+}
+ img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+ }
+
+.about {
+   max-width: 400px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+    
+
+}
+ hr{
+ width: 40%;
+ }
+
+ #About , #skills  {
+    justify-content: center;
+    text-align: center;
+    margin: inherit;
+    text-align: center;
+
+    
+}
+#skills {
+    color: #FF0152;
+   
+}
+
+.me {
+    text-align: center;
+}
+
+form {
+    height: 350px;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    height: 30px;
+    margin: auto;
+   background-color: #282C34;
+    padding: 9px;
+    border: 5px #282C34;
+    border-radius: 8px;
+    outline: none;
+    align-items: center;
+    color: aliceblue;
+}
+textarea {
+    height: 150px;
+    resize: none;
+}
+.button {
+    margin-left: 50%;
+}
+
+
+.skills-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 25px;
+  color: #FF0152;
+  font-size: 22px;
+}
+
+.skill-box {
+  display: grid;
+  grid-template-columns: 1fr 40px; 
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.name {
+  grid-column: 1 / -1; 
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.bar {
+  height: 6px;
+  border-radius: 3px;
+  position: relative;
+  
+}
+
+
+.fill, .fill1 , .fill2 , .fill3 {
+  height: 100%;
+  width: 90%;
+  background: #eee; 
+  border-radius: 3px;
+}
+.fill1 {
+width: 85%;
+}
+.fill2 {
+width: 75%;
+}
+.fill3 {
+width: 80%;
+}
+
+
+.percent {
+  font-size: 12px;
+  color: #eee;
+  text-align: right;
+}
